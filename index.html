@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Bento grid</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwind.config.js"></script>
+  <link rel="stylesheet" href="style.css">
+  </script>
+
+</head>
+
+<body class="flex justify-center items-center min-h-screen font-medium bg-WhiteBg font-DMSans">
+
+  <main class="grid gap-8 mx-4 my-8 md:grid-cols-4 md:grid-rows-[repeat(10,1fr)] md:max-w-[1100px] md:max-h-[800px]">
+
+    <section class="bg-Purple500 p-8 flex flex-col justify-center items-center md:col-span-2 md:row-span-4 md:order-2">
+      <h1 class="text-5xl text-center text-White font-medium mb-4 leading-6">
+        Social Media
+        <span class="text-Yellow500 mx-2">10x</span>Faster with AI
+      </h1>
+      <img src="assets/images/illustration-five-stars.webp" alt="Five stars" class="max-w-[200px]">
+      <p class="text-White text-center text-lg">
+        Over 4,000 5-star reviews
+      </p>
+    </section>
+
+    <section class="bg-White p-4 md:row-span-3 md:col-span-1 md:order-4 overflow-hidden">
+      <img src="assets/images/illustration-multiple-platforms.webp" alt="Manage accounts" class="max-w-[300px] mb-4 ">
+      <h2 class="text-2xl font-medium text-Black leading-6 ">
+        Manage multiple accounts and platforms.
+      </h2>
+    </section>
+
+    <section class="bg-Yellow500 p-4 pb-0 overflow-hidden md:row-span-3 md:col-span-1 md:order-5 overflow-hidden">
+      <h2 class="md:leading-7 text-2xl font-medium mb-4 text-Black">
+        Maintain a consistent posting schedule.
+      </h2>
+      <img src="assets/images/illustration-consistent-schedule.webp" alt="posting schedule" class="w-10/12 md:w-full">
+    </section>
+
+    <section class="bg-Purple100 px-4 py-8 md:row-span-7 md:col-span-1 md:order-3 overflow-hidden">
+      <h2 class="text-center md:text-left leading-6 text-2xl lg:text-3xl font-medium mb-4 text-Black">
+        Schedule to social media.
+      </h2>
+      <img src="assets/images/illustration-schedule-posts.webp" alt="illustration-schedule-posts"
+        class="max-w-full md:max-w-[225px] md:h-3/5 mb-4 lg:max-w-[350px]">
+      <p class="text-center md:text-left text-lg font-medium md:text-sm text-Black ">
+        Optimize post timings to publish content at the perfect time for your audience.
+      </p>
+    </section>
+
+    <section
+      class="bg-Purple500 py-6 px-12 md:row-span-3 md:col-span-2 md:order-8  md:px-4 md:flex md:justify-center md:items-center">
+      <img src="assets/images/illustration-grow-followers.webp" alt="illustration-grow-followers"
+        class=" mb-4 md:mb-0  w-[200px]">
+      <h1 class="text-2xl lg:text-3xl text-center md:text-left font-medium text-White">
+        Grow followers with non-stop content.
+      </h1>
+    </section>
+
+    <section class="bg-White p-6 md:row-span-3 md:col-span-1 md:order-7">
+      <p class="font-medium text-lg md:text-sm">
+        <span class="block text-5xl mb-2">>56%</span>
+        faster audience growth
+      </p>
+      <img src="assets/images/illustration-audience-growth.webp" alt="illustration-audience-growth"
+        class="w-[175px] mt-4">
+    </section>
+
+    <section class="bg-Yellow100 p-6 md:col-span-1 md:row-span-5 md:order-1 flex flex-col justify-center">
+      <h1 class="text-3xl mb-6 font-medium">
+        Create and schedule content
+        <span class="text-Purple500 italic">quicker</span>.
+      </h1>
+      <img src="assets/images/illustration-create-post.webp" alt="illustration-create-post" class="w-[200px]">
+    </section>
+
+    <section class="bg-Yellow500 p-6 md:px-3 md:row-span-5 md:col-span-1 md:order-6 flex flex-col justify-between">
+      <h1 class="text-3xl lg:text-3xl mb-4 font-medium">
+        Write your content using AI.
+      </h1>
+      <img src="assets/images/illustration-ai-content.webp" alt="illustration-ai-content" class="w-[250px] md:h-3/5">
+    </section>
+
+  </main>
+
+</body>
+
+</html>
